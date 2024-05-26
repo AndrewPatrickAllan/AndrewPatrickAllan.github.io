@@ -4,7 +4,7 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Andrew
-middle_name: P.
+middle_name: Patrick
 last_name: Allan
 email: andrewallan9797@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -80,7 +80,6 @@ flickr_id: # your flickr id
 github_username: AndrewPatrickAllan # your GitHub user name
 gitlab_username: # your GitLab user name
 ieee_id: # your ieeexplore.ieee.org/author/id
-instagram_id: # your instagram id
 kaggle_id: # your kaggle id
 keybase_username: # your keybase user name
 lastfm_id: # your lastfm id
@@ -126,22 +125,22 @@ cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
 google_site_verification: # your google-site-verification ID (Google Search Console)
 bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 
-# -----------------------------------------------------------------------------
-# Blog
-# -----------------------------------------------------------------------------
-
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
-permalink: /blog/:year/:title/
-lsi: true # produce an index for related posts
-
-# Pagination
-pagination:
-  enabled: true
-
-related_blog_posts:
-  enabled: true
-  max_related: 5
+## -----------------------------------------------------------------------------
+## Blog
+## -----------------------------------------------------------------------------
+#
+#blog_name: al-folio # blog_name will be displayed in your blog page
+#blog_description: a simple whitespace theme for academics
+#permalink: /blog/:year/:title/
+#lsi: true # produce an index for related posts
+#
+## Pagination
+#pagination:
+#  enabled: true
+#
+#related_blog_posts:
+#  enabled: true
+#  max_related: 5
 
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
@@ -213,6 +212,7 @@ kramdown:
 # Includes & excludes
 include: ["_pages"]
 exclude:
+  - _pages_aa_removed_for_now
   - bin/
   - CONTRIBUTING.md
   - CUSTOMIZE.md
@@ -264,14 +264,14 @@ defaults:
 sass:
   style: compressed
 
-# -----------------------------------------------------------------------------
-# Jekyll Minifier
-# -----------------------------------------------------------------------------
-
-jekyll-minifier:
-  exclude: ["robots.txt", "assets/js/search/*.js"]
-  uglifier_args:
-    harmony: true
+## -----------------------------------------------------------------------------
+## Jekyll Minifier
+## -----------------------------------------------------------------------------
+#
+#jekyll-minifier:
+#  exclude: ["robots.txt", "assets/js/search/*.js"]
+#  uglifier_args:
+#    harmony: true
 
 # -----------------------------------------------------------------------------
 # Jekyll Archives
@@ -296,8 +296,8 @@ display_categories: ["blockquotes"] # these categories will be displayed on the 
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Allan]
+  first_name: []
 
   style: apa
   locale: en
@@ -347,11 +347,11 @@ filtered_bibtex_keywords:
     slides,
     supp,
     video,
-    website,
+#    website,
   ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
-max_author_limit: 3 # leave blank to always show all authors
+max_author_limit: 9 # leave blank to always show all authors
 more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
 
 # Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.
@@ -604,23 +604,23 @@ third_party_libraries:
       js_map: "https://cdn.jsdelivr.net/npm/vega-lite@{{version}}/build/vega-lite.min.js.map"
     version: "5.16.3"
 
-# -----------------------------------------------------------------------------
-# Get external JSON data
-# -----------------------------------------------------------------------------
-
-jekyll_get_json:
-  - data: resume
-    json: assets/json/resume.json # it can also be an url
-jsonresume:
-  - basics
-  - work
-  - education
-  - publications
-  - projects
-  - volunteer
-  - awards
-  - certificates
-  - skills
-  - languages
-  - interests
-  - references
+## -----------------------------------------------------------------------------
+## Get external JSON data
+## -----------------------------------------------------------------------------
+#
+#jekyll_get_json:
+#  - data: resume
+#    json: assets/json/resume.json # it can also be an url
+#jsonresume:
+#  - basics
+#  - work
+#  - education
+#  - publications
+#  - projects
+#  - volunteer
+#  - awards
+#  - certificates
+#  - skills
+#  - languages
+#  - interests
+#  - references
