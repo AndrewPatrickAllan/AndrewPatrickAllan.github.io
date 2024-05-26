@@ -213,6 +213,7 @@ kramdown:
 include: ["_pages"]
 exclude:
   - _pages_aa_removed_for_now
+  - _posts_aa_removed_for_now
   - bin/
   - CONTRIBUTING.md
   - CUSTOMIZE.md
