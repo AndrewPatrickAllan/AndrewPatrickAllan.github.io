@@ -32,7 +32,7 @@ nav_order: 6
 <h1> Posters </h1>
 
 <p align="justify"> Exoplanets V | June 2024 | Leiden, NL  </p>
-<p align="justify"> The NAC | May 2024 | Egmond aan Zee, NL   </p>
+<p align="justify"> The Netherlands Astronomers' Conference (NAC) | May 2024 | Egmond aan Zee, NL   </p>
 <p align="justify"> UKEXOM 2024 Exoplanetary meeting | April 2024 | University of Birmingham, UK </p>
 <p align="justify"> 55th ESLAB Symposium | March 2023 | European Space Research and Technology Centre, Noordwijk NL  </p>
 <p align="justify"> 4th Advanced School on Exoplanetary Science | May 2023 | Vietri sul Mare, Salerno Italy  </p>
