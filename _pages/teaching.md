@@ -23,7 +23,7 @@ nav_order: 6
 <p align="justify"> NOVA Network II | April 2023 | Leiden University  </p>
 <p align="justify"> International Astronomical Union General Assembly | August 2022 | Busan, South Korea  </p>
 <p align="justify"> IAUS 310 Massive Stars Near and Far preview meeting | May 2021 | virtual </p>
-<p align="justify">  Irish National Astronomy Meeting | September 2020 | virtual </p>
+<p align="justify"> Irish National Astronomy Meeting | September 2020 | virtual </p>
 
 
 
