@@ -9,11 +9,11 @@ nav_order: 2
 
 <!-- _pages/publications.md -->
 <div class="publications">
-<h1> First author publications </h1>
+<h1> First Author Publications </h1>
 
 {% bibliography %}
 
-<h1> Collaborative publications </h1>
+<h1> Collaborative Publications </h1>
 
 {% bibliography -f contrib_articles %}
 
