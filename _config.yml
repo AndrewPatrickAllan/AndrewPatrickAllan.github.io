@@ -362,7 +362,7 @@ enable_publication_thumbnails: true
 
 # These are the defaults
 external_links:
-  enabled: true
+  enabled: false
   rel: external nofollow noopener
   target: _blank
   exclude:
@@ -607,19 +607,19 @@ third_party_libraries:
 # Get external JSON data
 # -----------------------------------------------------------------------------
 
-jekyll_get_json:
-  - data: resume
-    json: assets/json/resume.json # it can also be an url
-jsonresume:
-  - basics
-  - work
-  - education
-  - publications
-  - projects
-  - volunteer
-  - awards
-  - certificates
-  - skills
-  - languages
-  - interests
-  - references
+# jekyll_get_json:
+#   - data: resume
+#     json: assets/json/resume.json # it can also be an url
+# jsonresume:
+#   - basics
+#   - work
+#   - education
+#   - publications
+#   - projects
+#   - volunteer
+#   - awards
+#   - certificates
+#   - skills
+#   - languages
+#   - interests
+#   - references
